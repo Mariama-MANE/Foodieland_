@@ -6,11 +6,193 @@
     box-sizing: border-box;
 }
 
+:root {
+    --couleur_bleu :  #E7FAFE ;
+}
+
 .logo {
     width: 100px;
     height: 20px;
 }
 
 section {
-    padding: 5%;
+    padding: 5% 10%;
+}
+/* section tete  */
+
+p{
+    margin: 0;
+}
+
+.contenu {
+  
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.code {
+    background-color: white;
+    border-radius: 20px;
+    width: 200px;
+}
+.passe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    
+}
+
+.badge {
+    position: absolute;
+    right: -10%;
+}
+.badge img{
+  
+    border-radius: 20px;
+    width: 80px;
+  
+}
+.time {
+    padding: 30px;
+    border-radius: 30px;
+}
+
+h1 {
+   font-size: 60px;
+    
+}
+
+.contenu_droite {
+    background: url(/image/Mask\ Group.png);
+    width: 50%;
+    
+}
+.contenu_gauche {
+    width: 50%;
+    background-color:var(--couleur_bleu);
+    padding: 20px;
+    
+}
+
+.h1{
+    background: url(/image/Group\ 842.svg);
+    width: 50%;
+    padding: 30px;
+    border-radius: 30px;  
+}
+
+.view_all {
+    background-color: var(--couleur_bleu);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    
+}
+.view {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px ;
+    font-size: 12px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.food {
+  margin-left: 300px;
+  margin-top: 5px;
+}
+
+.p {
+ margin-top: 50px;
+}
+.text {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.img {
+    width: 50%;
+    background-color:var(--couleur_bleu);
+    padding: 20px;
+}
+.legumes .col-4 {
+    background-color:var(--couleur_bleu);
+    padding-bottom: 10px;
+    border-radius: 20px;
+   
+}
+
+.burger {
+width: 100%;
+border-radius: 30px;
+
+}
+.burger_img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.sauce {
+ width: 100%;
+border-radius: 30px;   
+}
+.desert {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.cuisine{
+    align-items: center;
+    width: 100%;
+}
+.chef{
+    width: 50%;
+}
+.post {
+    margin-left: 300px;
+    margin-top: 5px;  
+}
+
+.h1{
+    width: 50%;
+    padding: 20px;
+     
+}
+
+.p {
+    margin-top: 50px;
+   }
+   .text {
+       margin-left: 100px;
+       margin-top: 50px;
+ }
+ .post_insta {
+    background-color: var(--couleur_bleu);
+    border-radius: 30px;
+    padding: 5px;
+}
+.diner .col-4 {
+    background-color:var(--couleur_bleu);
+    padding-bottom: 10px;
+    border-radius: 20px;
+   
+}
+.fruits {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.cordon {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px ;
+    font-size: 12px;
+    width: 25%;
+   
 }
