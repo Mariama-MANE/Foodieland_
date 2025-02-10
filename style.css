@@ -172,10 +172,16 @@ border-radius: 30px;
        margin-top: 50px;
  }
  .post_insta {
-    background-color: var(--couleur_bleu);
-    border-radius: 30px;
-    padding: 5px;
+    background-color:black
+   
+  
 }
+
+.salade {
+    width: 100%;
+    border-radius: 30px;
+    
+    }
 .diner .col-4 {
     background-color:var(--couleur_bleu);
     padding-bottom: 10px;
