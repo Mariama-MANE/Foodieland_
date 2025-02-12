@@ -137,14 +137,6 @@ border-radius: 30px;
     
 }
 
-.sauce {
- width: 100%;
-border-radius: 30px;   
-}
-.desert {
-    width: 100%;
-    border-radius: 30px;
-}
 
 .cuisine{
     align-items: center;
@@ -154,7 +146,7 @@ border-radius: 30px;
     width: 50%;
 }
 .post {
-    margin-left: 300px;
+  
     margin-top: 5px;  
 }
 
@@ -183,10 +175,21 @@ border-radius: 30px;
     
     }
 .diner .col-4 {
-    background-color:var(--couleur_bleu);
     padding-bottom: 10px;
     border-radius: 20px;
+    width: 30%;
+    margin: 20px;
    
+   
+}
+.pate {
+   
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 20px;
+    padding-bottom: 10px;
+ 
 }
 .fruits {
     width: 100%;
@@ -201,4 +204,35 @@ border-radius: 30px;
     font-size: 12px;
     width: 25%;
    
+}
+.vegetables {
+    
+    border-radius: 30px;
+    margin-bottom: 20px;
+   
+}
+.paragraphe {
+    background-color: white;
+}
+.delice {
+    width: 50%;
+    background-color:var(--couleur_bleu);
+    padding: 20px;
+    border-radius: 30px;
+}
+.tranche {
+    background-color:var(--couleur_bleu);
+    width: 100%;
+    height: 200px;
+    
+}
+.pied {
+    
+}
+.bebe {
+    background-color: red;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
