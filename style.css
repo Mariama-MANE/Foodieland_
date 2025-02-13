@@ -168,20 +168,27 @@ border-radius: 30px;
    
   
 }
+.visit {
+   
+    color: white;
+    border-radius: 30px;
+    padding: 10px ;
+}
+
 
 .salade {
     width: 100%;
     border-radius: 30px;
     
     }
-.diner .col-4 {
+/* .diner .col-4 {
     padding-bottom: 10px;
     border-radius: 20px;
     width: 30%;
     margin: 20px;
    
    
-}
+} */
 .pate {
    
     padding-bottom: 10px;
@@ -192,7 +199,7 @@ border-radius: 30px;
  
 }
 .fruits {
-    width: 100%;
+   
     border-radius: 30px;
     margin-bottom: 20px;
 }
@@ -213,12 +220,8 @@ border-radius: 30px;
 }
 .paragraphe {
     background-color: white;
-}
-.delice {
-    width: 50%;
-    background-color:var(--couleur_bleu);
-    padding: 20px;
-    border-radius: 30px;
+    font-size: 10px;
+
 }
 .tranche {
     background-color:var(--couleur_bleu);
@@ -226,13 +229,115 @@ border-radius: 30px;
     height: 200px;
     
 }
-.pied {
-    
-}
-.bebe {
-    background-color: red;
-  
+
+.bebe {  
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.make {
+display: flex;
+margin-bottom: 50px;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.make h1 {
+    width: 60%;
+}
+
+.make p {
+    width: 80%;
+}
+.pp {
+    justify-content: center;
+}
+.post_item {
+   
+}
+.oval {
+    display: flex;
+    gap: 5px;
+   
+}
+
+.oval img {
+    width: 8%;
+    height: 4%;
+}
+.charpe {
+    width:50%;
+    height: 5%;
+}
+.delice h1{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.delice p{
+    text-align: center;
+    padding: 0 300px;
+    margin: 40px;
+}
+
+.delice{
+    background-color: #E7FAFE;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.pub{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pub img{
+    width: 15%;
+}
+
+.chips  {   
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    border-radius: 20px;
+    background-color: rgb(247, 246, 246);
+   
+}
+
+.chips input {
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.chips button{
+    padding: 15px;
+    border-radius: 15px;
+    background: black;
+    color: white;
+}
+.pied {
+    margin: 80px;
+}
+.menu {
+display: flex;
+justify-content: right;
+
+}
+.annee {
+    display: flex;
+    justify-content: center;
+}
+.sous {
+border-top: 1px solid rgba(0, 0, 0, 0.119);
+padding: 50px 0;
+}
+.span {
+    color: red;
 }
